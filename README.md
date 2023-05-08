@@ -4,7 +4,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. osTicket is an open source help desk management solution that offers ticket management and IT assest management within a suite. The  system can only be deplyed in the cloud and is suited for small and midsize enterprise customers. <br />
 
 
 <h2>Video Demonstration</h2>
@@ -16,6 +16,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- HeidiSQL
 
 <h2>Operating Systems Used </h2>
 
@@ -23,12 +24,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
+- Step 1: Create your virutal machine in Azure. 
+- (Open the installation files to install what is needed) 
+- Step 2: Install/Enable IIS in Windows CGI
+- Step 3: Download and install the PHP Manager for IIS
+- Step 4: Download and install the Rewite Module 
+- Step 5: Create the directory C:\PHP
+- Step 6: Download and install PHP 7.3.8
+- Step 7: Download and install VC_redist.x86.exe
+- Step 8: Download and install MySQL 5.5.62
+- Step 9: Open IIS as Admin
+- Step 10: Register PHP from within IIS
+- Step 11: Reload (Open IIS, Stop and Start the Server)
 <h2>Installation Steps</h2>
 
 <p>
