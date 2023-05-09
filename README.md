@@ -36,6 +36,26 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Step 9: Open IIS as Admin
 - Step 10: Register PHP from within IIS
 - Step 11: Reload (Open IIS, Stop and Start the Server)
+- Step 12: Install osTicket v1.15.8
+- Step 13: Reload IIS (open IIS, Stop and Start Server)
+- Step 14: Go to sites -> Default->osTicket (Browse .80) 
+- Step 15: Enable extensions (Enable php_imap.dII, php_intl.dII, php_opcache.dII) Refresh when done
+- Step 16: Rename ost-config.php (From C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to  C:\inetpub\wwwroot\osTicket\include\ost-config.php)
+- Step 17: Assign Permissions ost-config.php (Disable inheritance--> Remove ALL, New Permissions--> Everyone--> ALL)
+- Step 18: Continue (Name Helpdesk/ default email) 
+- Step 19: Download and Install HeidSQL, new session root/Password1 --> Create  a  database called osTickets 
+- Step 20: Continue setting up osTicket in the browser 
+MySQL Database: osTicket
+MySQL Username: root
+MySQL Password: Password1
+Click “Install Now!
+Congratualtions! 
+We will go over post installation setup in our next tutorial. 
+*INCLUDE LINK TO NEXT TUTORIAL* 
+CLEAN UP! Delete your resources to save Azure credit. 
+
+
+
 <h2>Installation Steps</h2>
 
 <p>
