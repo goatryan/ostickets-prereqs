@@ -61,6 +61,10 @@ CLEAN UP! Delete your resources to save Azure credit.
 
 
 <p>
+  Step 1: Create Virtual Machine in Azure
+          Create a resource group 
+          Create a Windows 10 Virtual Machine (CM) with 4 Virtual CPUs 
+          (allow to create Vnet if not already on default) 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
