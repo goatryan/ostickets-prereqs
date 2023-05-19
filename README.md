@@ -20,12 +20,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
+
  =Install Internet Information Services
  =Install Web Platform Installer
  =Install osTicket
  =Install HeidiSQL
 
 <h2>Installation Steps</h2>
+
 - Step 1: Create your virutal machine in Azure.(Open the installation files to install what is needed) 
 - Step 2: Install/Enable IIS in Windows CGI
 - Step 3: Download and install the PHP Manager for IIS
