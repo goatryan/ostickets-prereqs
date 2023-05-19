@@ -24,7 +24,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Step 1: Create your virutal machine in Azure. 
+Step 1: Install Internet Information Services
+Step 2: Install Web Platform Installer
+Step 3: Install osTicket
+Step 4: Install HeidiSQL
+
+
+
+<h2>Installation Steps</h2>
+
+Step 1: Create your virutal machine in Azure. 
 - (Open the installation files to install what is needed) 
 - Step 2: Install/Enable IIS in Windows CGI
 - Step 3: Download and install the PHP Manager for IIS
@@ -54,9 +63,6 @@ We will go over post installation setup in our next tutorial.
 *INCLUDE LINK TO NEXT TUTORIAL* 
 CLEAN UP! Delete your resources to save Azure credit. 
 
-
-
-<h2>Installation Steps</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
