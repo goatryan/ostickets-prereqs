@@ -7,9 +7,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. osTicket is an open source help desk management solution that offers ticket management and IT assest management within a suite. The  system can only be deplyed in the cloud and is suited for small and midsize enterprise customers. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -23,12 +20,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
-Step 1: Install Internet Information Services
-Step 2: Install Web Platform Installer
-Step 3: Install osTicket
-Step 4: Install HeidiSQL
-
-
+ =Install Internet Information Services
+ =Install Web Platform Installer
+ =Install osTicket
+ =Install HeidiSQL
 
 <h2>Installation Steps</h2>
 - Step 1: Create your virutal machine in Azure.(Open the installation files to install what is needed) 
