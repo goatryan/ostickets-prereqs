@@ -25,11 +25,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install Web Platform Installer 
 - Intall osTicket
 - Install HeidiSQL
-
+https://docs.google.com/document/d/1Fv24WaL0IXHVXTSHoKr5ZSXAxwCKCsezar0gLGBwQt0/edit#
 
 
 <h2>Installation Steps</h2>
+*Prior to this, make sure you are using Azure to create your virtual machine. If you  do not know how to create a virtual machine in Azure, look at my tutorial here.
 
+Once created, log in. 
 - Step 1: Create your virutal machine in Azure.(Open the installation files to install what is needed) 
 - Step 2: Install/Enable IIS in Windows CGI
 - Step 3: Download and install the PHP Manager for IIS
@@ -61,14 +63,19 @@ CLEAN UP! Delete your resources to save Azure credit.
 
 
 <p>
-  Step 1: Create Virtual Machine in Azure
-          Create a resource group 
-          Create a Windows 10 Virtual Machine (CM) with 4 Virtual CPUs 
-          (allow to create Vnet if not already on default) 
+  <h2>Step 2: Insall and Enable Internet Information Services With CGI</h2>
+ We must first install IIS in Windows. We can do this by opening "Control Panel" and clicking "Turn Window Features on or off" and check the IIS box. Proceed by clicking on Web Management tools and World Wide Web Services. Proceed by extending  "Application Development Features" and finally click on [x]CGI to enable services
+ 
+Test your web servers by opening up a new browser and typing 127.0.0.1 (loopback/local host). You should see IIS page popup, if not double check and restart procedure.
+  
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
+  <h2>Step 3: Download and install the PHP Manager for IIS/Download and Install Rewrite Module </h2>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the installation files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Also download and install the Rewrite Module (rewrite_amd64_en-US.msi) 
+Once installed and downloaded create the directory C:\PHP in file "This PC". Continue by installing and downloading PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and extract the contents into C:\PHP
 </p>
 <br />
 
