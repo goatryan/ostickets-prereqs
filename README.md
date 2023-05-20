@@ -23,8 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create VM in Azure
 - Installation
-- Post Installation Setup
-- Tickets and Ticket Licefycle
+
 
 https://docs.google.com/document/d/1Fv24WaL0IXHVXTSHoKr5ZSXAxwCKCsezar0gLGBwQt0/edit#
 
