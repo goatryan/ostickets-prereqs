@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Create VM in Azure
-- Installation
+- <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation Files</a> Installation
 
 
 https://docs.google.com/document/d/1Fv24WaL0IXHVXTSHoKr5ZSXAxwCKCsezar0gLGBwQt0/edit#
