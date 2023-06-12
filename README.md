@@ -17,6 +17,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Remote Desktop
 - Internet Information Services (IIS)
 - HeidiSQL
+- PHP
+- Redist
+- osTicket
 
 <h2>Operating Systems Used </h2>
 
