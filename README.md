@@ -4,10 +4,10 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. osTicket is an open source help desk management solution that offers ticket management and IT assest management within a suite. The  system can only be deplyed in the cloud and is suited for small and midsize enterprise customers. <br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. osTicket is an open-source help desk management solution that offers ticket management and IT asset management within a suite. The  system can only be deployed in the cloud and is suited for small and midsize enterprise customers. <br />
 
 <h2>Video Demonstration</h2>
-
+For specific step by step instructions follow the video below.
 - ### [YouTube: How To Configure osTicket, post-installation][(https://www.youtube.com)](https://youtu.be/6CZCoBui-js)
 
 
@@ -37,7 +37,9 @@ Create a Resource Group. Next create a windows 10 Virtual Machine with 4 Virtual
 
 Once created log in by using Microsoft Remote Desktop. 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/LEXyg6Q.png">
+
+
 
 
 
@@ -46,14 +48,12 @@ Once created log in by using Microsoft Remote Desktop.
 
  We must first install IIS in Windows. We can do this by opening "Control Panel" and clicking Uninstall a program. Then "Turn Window Features on or off" and check the IIS box. Proceed by clicking on Web Management tools and World Wide Web Services. Proceed by extending  "Application Development Features" and finally click on [x]CGI to enable services
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/FfdJ928.png">
 
  
 Test your web servers by opening up a new browser and typing 127.0.0.1 (loopback/local host). You should see IIS page popup, if not double check and restart procedure.
   
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
 </p>
 
 <p>
@@ -70,7 +70,7 @@ Test your web servers by opening up a new browser and typing 127.0.0.1 (loopback
   - Standard Configuration 
   - Use Password1
   
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/chsEH88.png">
  
 </p>
 
@@ -83,7 +83,7 @@ Test your web servers by opening up a new browser and typing 127.0.0.1 (loopback
   - Within c:\inetpub\wwwroot, Rename "upload" to "osTicket"
    
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/BE21aqg.png">
 
   
  </p>
@@ -94,7 +94,7 @@ Test your web servers by opening up a new browser and typing 127.0.0.1 (loopback
   Go to sites-> Default-> osTicket 
   - On the right hand side, click "Browse *:80"
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/InPkYmk.png">
 
   </p>
 
@@ -110,8 +110,7 @@ Enable: php_opcache.dll
 Refresh the osTicket site in your browse, observe the changes
 
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  
+<img src="https://imgur.com/e0FFMgi.png">
   </p>
 
 
@@ -120,8 +119,7 @@ Rename: ost-config.php
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<img src="https://imgur.com/TThrWNZ.png">
   
   </p>
   
@@ -130,8 +128,7 @@ Assign Permissions: ost-config.php
 Disable inheritance -> Remove All
 New Permissions -> Everyone -> All
  
- <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+ <img src="https://imgur.com/mNrXznf.png">
   
   </p>
   
@@ -140,7 +137,7 @@ Continue Setting up osTicket in the browser (click Continue)
 Name Helpdesk
 Default email (receives email from customers)
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/e0FFMgi.png">
 
   
   </p>
@@ -151,8 +148,7 @@ Default email (receives email from customers)
   -Create database called "osTicket"
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<img src="https://imgur.com/4srFbPT.png">
 <p>   
   Congratulations, hopefully it is installed with no errors!
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php
@@ -177,8 +173,7 @@ End Users osTicket URL:
   http://localhost/osTicket/ 
 
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<img src="https://imgur.com/Jy0wuFV.png">
   
 </p>
 
