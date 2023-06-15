@@ -7,7 +7,7 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. osTicket is an open-source help desk management solution that offers ticket management and IT asset management within a suite. The  system can only be deployed in the cloud and is suited for small and midsize enterprise customers. <br />
 
 <h2>Video Demonstration</h2>
-For specific step by step instructions follow the video below.
+For specific step-by-step instructions follow the video below.
 
 - ### [YouTube: Prerequisites and Intalling osTicket][(https://www.youtube.com)](https://youtu.be/6CZCoBui-js)
 
@@ -33,8 +33,8 @@ For specific step by step instructions follow the video below.
 <h2>Installation Steps</h2>
 <h2> Step1: Create Virtual Machine on Azure</h2>
 
-If you  do not know how to create a virtual machine in Azure, look at my youtube video where I start from the begininning.
-Create a Resource Group. Next create a windows 10 Virtual Machine with 4 Virtual CPUs. Lastly, allow it to create a Virtual Network (Vnet)
+If you  do not know how to create a virtual machine in Azure, look at my youtube video where I start from the beginning.
+Create a Resource Group. Next, create a Windows 10 Virtual Machine with 4 Virtual CPUs. Lastly, allow it to create a Virtual Network (Vnet)
 
 Once created log in by using Microsoft Remote Desktop. 
 
@@ -52,7 +52,7 @@ Once created log in by using Microsoft Remote Desktop.
 <img src="https://imgur.com/FfdJ928.png">
 
  
-Test your web servers by opening up a new browser and typing 127.0.0.1 (loopback/local host). You should see IIS page popup, if not double check and restart procedure.
+Test your web servers by opening up a new browser and typing 127.0.0.1 (loopback/local host). You should see IIS page popup, if not double-check and restart the procedure.
   
   
 </p>
@@ -91,9 +91,9 @@ Test your web servers by opening up a new browser and typing 127.0.0.1 (loopback
  
  
  <p>
-  Next you can reload IIS (restart) 
+  Next, you can reload IIS (restart) 
   Go to sites-> Default-> osTicket 
-  - On the right hand side, click "Browse *:80"
+  - On the right-hand side, click "Browse *:80"
   
 <img src="https://imgur.com/InPkYmk.png">
 
@@ -136,7 +136,7 @@ New Permissions -> Everyone -> All
   <p>
 Continue Setting up osTicket in the browser (click Continue)
 Name Helpdesk
-Default email (receives email from customers)
+Default email (receives an email from customers)
 
 <img src="https://imgur.com/e0FFMgi.png">
 
